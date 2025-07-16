@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "nombre": "Memoria USB",
+    "precio": 25.5,
+    "descripcion": "Memoria USB negra, cuenta con 32 GB de espacio, indicador con luz led.",
+    "disponible": true,
+    "fecha_ingreso": "2025-06-22"
+  },
+  {
+    "id": 2,
+    "nombre": "Mouse inalámbrico",
+    "precio": 15.99,
+    "descripcion": "Mouse óptico inalámbrico con conexión USB y batería recargable.",
+    "disponible": true,
+    "fecha_ingreso": "2025-06-20"
+  },
+  {
+    "id": 3,
+    "nombre": "Teclado mecánico",
+    "precio": 55,
+    "descripcion": "Teclado mecánico RGB con switches azules y diseño compacto.",
+    "disponible": true,
+    "fecha_ingreso": "2025-06-18"
+  },
+  {
+    "id": 4,
+    "nombre": "Cámara web HD",
+    "precio": 30.25,
+    "descripcion": "Cámara web de 1080p con micrófono incorporado y clip ajustable.",
+    "disponible": true,
+    "fecha_ingreso": "2025-06-21"
+  },
+  {
+    "id": 5,
+    "nombre": "Disco duro externo 1TB",
+    "precio": 75,
+    "descripcion": "Almacenamiento portátil USB 3.0 compatible con Windows y Mac.",
+    "disponible": true,
+    "fecha_ingreso": "2025-06-17"
+  },
+  {
+    "id": 6,
+    "nombre": "Cable HDMI 2 metros",
+    "precio": 8.99,
+    "descripcion": "Cable HDMI de alta velocidad compatible con 4K y 3D.",
+    "disponible": true,
+    "fecha_ingreso": "2025-06-15"
+  },
+  {
+    "id": 7,
+    "nombre": "Audífonos Bluetooth",
+    "precio": 45.75,
+    "descripcion": "Audífonos inalámbricos con micrófono y cancelación de ruido.",
+    "disponible": false,
+    "fecha_ingreso": "2025-06-10"
+  },
+  {
+    "id": 8,
+    "nombre": "Power Bank 10,000mAh",
+    "precio": 22,
+    "descripcion": "Batería portátil con doble salida USB y carga rápida.",
+    "disponible": true,
+    "fecha_ingreso": "2025-06-19"
+  },
+  {
+    "id": 9,
+    "nombre": "Altavoz Bluetooth",
+    "precio": 35,
+    "descripcion": "Altavoz portátil resistente al agua con sonido estéreo.",
+    "disponible": true,
+    "fecha_ingreso": "2025-06-14"
+  },
+  {
+    "id": 10,
+    "nombre": "Router WiFi",
+    "precio": 60.99,
+    "descripcion": "Router de doble banda con 4 antenas y alta velocidad.",
+    "disponible": true,
+    "fecha_ingreso": "2025-06-12"
+  },
+  {
+    "id": 11,
+    "nombre": "Monitor 24 pulgadas",
+    "precio": 140,
+    "descripcion": "Monitor LED Full HD con entrada HDMI y VGA.",
+    "disponible": false,
+    "fecha_ingreso": "2025-06-11"
+  },
+  {
+    "id": 12,
+    "nombre": "Soporte para laptop",
+    "precio": 18.5,
+    "descripcion": "Soporte de aluminio ajustable compatible con la mayoría de laptops.",
+    "disponible": true,
+    "fecha_ingreso": "2025-06-08"
+  },
+  {
+    "id": 13,
+    "nombre": "Memoria RAM DDR4 8GB",
+    "precio": 42,
+    "descripcion": "Memoria de alto rendimiento compatible con la mayoría de PCs.",
+    "disponible": true,
+    "fecha_ingreso": "2025-06-09"
+  },
+  {
+    "id": 14,
+    "nombre": "Adaptador USB-C a HDMI",
+    "precio": 12.75,
+    "descripcion": "Adaptador para conectar laptops con USB-C a pantallas HDMI.",
+    "disponible": true,
+    "fecha_ingreso": "2025-06-13"
+  },
+  {
+    "id": 15,
+    "nombre": "Tablet 10 pulgadas",
+    "precio": 199.99,
+    "descripcion": "Tablet con pantalla HD, 64GB de almacenamiento y Android 13.",
+    "disponible": true,
+    "fecha_ingreso": "2025-06-07"
+  },
+  {
+    "id": 16,
+    "nombre": "Smartwatch deportivo",
+    "precio": 65.5,
+    "descripcion": "Reloj inteligente con GPS, pulsómetro y resistencia al agua.",
+    "disponible": true,
+    "fecha_ingreso": "2025-06-06"
+  },
+  {
+    "id": 17,
+    "nombre": "Lámpara LED USB",
+    "precio": 9.99,
+    "descripcion": "Lámpara flexible alimentada por USB, ideal para laptops.",
+    "disponible": true,
+    "fecha_ingreso": "2025-06-05"
+  },
+  {
+    "id": 18,
+    "nombre": "Silla gamer",
+    "precio": 210,
+    "descripcion": "Silla ergonómica con soporte lumbar y reposabrazos ajustables.",
+    "disponible": false,
+    "fecha_ingreso": "2025-06-04"
+  },
+  {
+    "id": 19,
+    "nombre": "Micrófono condensador",
+    "precio": 49.95,
+    "descripcion": "Micrófono ideal para grabación de voz y streaming.",
+    "disponible": true,
+    "fecha_ingreso": "2025-06-03"
+  },
+  {
+    "id": 20,
+    "nombre": "Zapatillas deportivas",
+    "precio": 1200,
+    "descripcion": "Zapatillas para correr de alta calidad.",
+    "disponible": true,
+    "fecha_ingreso": "2025-06-23"
+  }
+]
