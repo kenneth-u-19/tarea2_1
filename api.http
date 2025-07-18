@@ -2,31 +2,89 @@
 ###Lista de productos
 GET http://localhost:3000/productos
 
+
+
+###Lista de categoria
+GET http://localhost:3000/categorias
+
+
+
+###Lista de productos
+GET http://localhost:3000/productos/disponibles
+
+
+
+###consulta por id de categoria
+GET http://localhost:3000/categorias/2
+
+
+
 ###consulta por id de producto
-GET http://localhost:3000/productos/20
+GET http://localhost:3000/productos/2
+
+
 
 ### agregar un nuevo producto
 POST http://localhost:3000/productos
 Content-Type: application/json
 
 {
-  
-  "precio": 2000,
-  "descripcion": "Zapatillas para correr de alta calidad.",
-  "disponible": true
+  "id": 2,
+  "nombre": "SSD Kingston",
+  "precio": 534.99,
+  "descripcion": "1TB de espacio disponible",
+  "disponible": 1,
+  "fecha_ingreso": "2025-07-19",
+  "categoria_id": 4
 }
 
-### Actualziar un producto
-PUT http://localhost:3000/productos/20
+
+
+### agregar un nueva categoria
+POST http://localhost:3000/categorias
 Content-Type: application/json
 
 {
-    "nombre": "Zapatillas casuales",
-    "precio": 1320,
-    "descripcion": "Zapatillas",
-    "disponible": true
+  "id": "5",
+  "nombre": "snacks"
 }
 
 
+
+### Actualziar un producto
+PUT http://localhost:3000/productos/2
+Content-Type: application/json
+
+{
+  "id": 2,
+  "nombre": "SSD Samsung",
+  "precio": 534.99,
+  "descripcion": "1TB de espacio disponible",
+  "disponible": 1,
+  "fecha_ingreso": "2025-07-19",
+  "categoriaId": 2
+}
+
+
+
+
+### Actualziar una categoria
+PUT http://localhost:3000/categorias/2
+Content-Type: application/json
+
+{
+  "id": 2,
+  "nombre": "Limpieza"
+}
+
+
+
+
 ### eliminar producto por id
-DELETE  http://localhost:3000/productos/20
+DELETE  http://localhost:3000/productos/3
+
+
+
+
+### eliminar categoria por id
+DELETE  http://localhost:3000/categorias/5
