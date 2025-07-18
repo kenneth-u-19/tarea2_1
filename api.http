@@ -29,7 +29,7 @@ POST http://localhost:3000/productos
 Content-Type: application/json
 
 {
-  "id": 2,
+  "id": 3,
   "nombre": "SSD Kingston",
   "precio": 534.99,
   "descripcion": "1TB de espacio disponible",
@@ -87,4 +87,4 @@ DELETE  http://localhost:3000/productos/3
 
 
 ### eliminar categoria por id
-DELETE  http://localhost:3000/categorias/5
+DELETE  http://localhost:3000/categorias/2

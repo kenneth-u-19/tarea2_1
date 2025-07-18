@@ -78,8 +78,8 @@ app.post('/productos', async (req, res) => {
     }
 
     const [result] = await pool.query(
-      'INSERT INTO productos (nombre, precio, descripcion, disponible, fecha_ingreso) VALUES (?, ?, ?, ?, ?)',
-      [nombre, precio, descripcion, disponible, fecha_ingreso]
+      'INSERT INTO productos (nombre, precio, descripcion, disponible, fecha_ingreso, categoria_id) VALUES (?, ?, ?, ?, ?, ?)',
+      [nombre, precio, descripcion, disponible, fecha_ingreso, categoria_id]
     );
 
     const nuevoProducto = {
@@ -88,7 +88,8 @@ app.post('/productos', async (req, res) => {
       precio,
       descripcion,
       disponible,
-      fecha_ingreso
+      fecha_ingreso,
+      categoria_id
     };
 
     res.status(201).json({
@@ -246,7 +247,7 @@ app.delete('/categorias/:id', async (req, res) => {
   try {
     
     // Verificar si hay productos asociados
-    const [productos] = await pool.query('SELECT COUNT(*) as total FROM productos WHERE id = ?', [id]);
+    const [productos] = await pool.query('SELECT COUNT(*) as total FROM productos WHERE categoria_id = ?', [id]);
 
     if (productos[0].total > 0) {
       return res.status(400).json({ message: 'No se puede eliminar: Hay productos asociados a esta categoría' });
